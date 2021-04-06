@@ -1,0 +1,100 @@
+body{height:100vh;
+	background:#acbd;
+	background-image:url(images/doodles.png);
+}
+<!-- amtread popup ramadhan -->
+@keyframes slideDown{0%{opacity:0;transform:translateY(-10%)}100%{opacity:1;transform:translateY(0%)}}
+#amtreadramadhan{
+	line-height:1.55;
+	display:block;
+	background:#2d3436;
+	position:fixed;
+	top:25%;
+	right:0;
+	left:0;
+	margin:auto;
+	text-align:center;
+	max-width:600px;
+	box-shadow:0 0 2.5rem -1.5rem rgba(0,0,0,0.5);
+	z-index:99;min-height:325px;
+	padding:20px;
+	border-radius:10px;
+	animation:slideDown 2s;
+	overflow:hidden;
+	}
+.amtread-title-ramadhan{
+	font-style:normal;
+	font-size:35px
+	}
+#amtreadramadhan 
+.puasa21{
+	position:absolute;
+	color:white;
+	font-size:1.5rem;
+	font-weight:400;
+	z-index:99999;
+	text-align:center;
+	margin:auto;
+	padding:10px;
+	left:0;
+	right:0;
+	top:10%;
+	}#amtreadramadhan 
+	.puasa21 p{
+		margin:10px auto;
+		font-style:italic;
+		font-family:Georgia
+		}
+#amtreadramadhan 
+.puasa21 
+.ramadhan2021{
+	font-size:2.5rem;
+	font-style:normal
+	}
+#amtreadramadhan a.closepopup{
+	background:#d63031;
+	position:relative;
+	top:265px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+	z-index:99;
+	border-radius:3px;
+	display:inline-block;
+	font-size:13px;
+	padding:4px 14px;
+	min-width:60px;
+	transition:all 0.3s
+	}
+#amtreadramadhan a.closepopup:hover{
+	background:#2d3436;
+	color:#d63031;
+	border: 1px 
+	solid #d63031
+}
+
+.createdby{
+	font: italic normal bold 16px/18px helvetica, arial serif;
+	animation-name: animasiText;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animasiText{
+	0%{
+		color: #7f8080;
+	}
+	50%{
+		color: #c5c5c5;
+	}
+	100%{
+		color: #ffffff;
+	}
+}
+
+
+
+#amtreadramadhan a.closepopup:active{
+	opacity:.9}
+@media screen and (max-width:768px){#amtreadramadhan .puasa21{font-size:1rem; margin-top:-30px}#amtreadramadhan .puasa21 .ramadhan2021{font-size:1.5rem}#amtreadramadhan{min-height:260px;left:20px;right:20px}#amtreadramadhan a.closepopup{position:relative;top:200px}}
