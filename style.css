@@ -75,6 +75,7 @@ body{height:100vh;
 
 .createdby{
 	font: italic normal bold 16px/18px helvetica, arial serif;
+	letter-spacing: 3px;
 	animation-name: animasiText;
 	animation-duration: 1s;
 	animation-timing-function: ease;
