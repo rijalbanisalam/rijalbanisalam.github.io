@@ -1,6 +1,7 @@
 body{height:100vh;
 	background:#acbd;
 	background-image:url(images/doodles.png);
+	display: inline;
 }
 <!-- amtread popup ramadhan -->
 @keyframes slideDown{0%{opacity:0;transform:translateY(-10%)}100%{opacity:1;transform:translateY(0%)}}
