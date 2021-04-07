@@ -1,6 +1,6 @@
 body{height:100vh;
 	background:#acbd;
-	background-image:url(images/doodles.png);
+	background-image:url(images/tileable_wood_texture_@2X.png);
 	display: inline;
 }
 <!-- amtread popup ramadhan -->
@@ -22,13 +22,13 @@ body{height:100vh;
 	border-radius:10px;
 	animation:slideDown 2s;
 	overflow:hidden;
-	}
+}
 .amtread-title-ramadhan{
 	font-style:normal;
 	font-size:35px
-	}
-#amtreadramadhan 
-.puasa21{
+}
+
+#amtreadramadhan .puasa21{
 	position:absolute;
 	color:white;
 	font-size:1.5rem;
@@ -40,38 +40,17 @@ body{height:100vh;
 	left:0;
 	right:0;
 	top:10%;
-	}#amtreadramadhan 
-	.puasa21 p{
-		margin:10px auto;
-		font-style:italic;
-		font-family:Georgia
-		}
-#amtreadramadhan 
-.puasa21 
-.ramadhan2021{
+}
+
+#amtreadramadhan .puasa21 p{
+	margin:10px auto;
+	font-style:italic;
+	font-family:Georgia
+}
+
+#amtreadramadhan .puasa21 .ramadhan2021{
 	font-size:2.5rem;
 	font-style:normal
-	}
-#amtreadramadhan a.closepopup{
-	background:#d63031;
-	position:relative;
-	top:265px;
-	color:#fff;
-	text-align:center;
-	cursor:pointer;
-	z-index:99;
-	border-radius:3px;
-	display:inline-block;
-	font-size:13px;
-	padding:4px 14px;
-	min-width:60px;
-	transition:all 0.3s
-	}
-#amtreadramadhan a.closepopup:hover{
-	background:#2d3436;
-	color:#d63031;
-	border: 1px 
-	solid #d63031
 }
 
 .createdby{
@@ -94,9 +73,3 @@ body{height:100vh;
 		color: #ffffff;
 	}
 }
-
-
-
-#amtreadramadhan a.closepopup:active{
-	opacity:.9}
-@media screen and (max-width:768px){#amtreadramadhan .puasa21{font-size:1rem; margin-top:-30px}#amtreadramadhan .puasa21 .ramadhan2021{font-size:1.5rem}#amtreadramadhan{min-height:260px;left:20px;right:20px}#amtreadramadhan a.closepopup{position:relative;top:200px}}
