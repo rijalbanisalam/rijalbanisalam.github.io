@@ -50,11 +50,11 @@ body{height:100vh;
 
 #amtreadramadhan .puasa21 .ramadhan2021{
 	font-size:2.5rem;
-	font-style:normal
+	font-style:normal;
 }
 
 .createdby{
-	font: italic normal bold 16px/18px helvetica, arial serif;
+	font: italic normal bold 19px/18px helvetica, arial serif;
 	letter-spacing: 3px;
 	animation-name: animasiText;
 	animation-duration: 1s;
@@ -62,9 +62,15 @@ body{height:100vh;
 	animation-iteration-count: infinite;
 }
 
+.quotes{
+	font-size: 20px;
+	font-style: bold;
+	color: #acbd;
+}
+
 @keyframes animasiText{
 	0%{
-		color: #7f8080;
+		color: #acbd;
 	}
 	50%{
 		color: #c5c5c5;
