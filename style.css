@@ -1,81 +1,52 @@
-body{height:100vh;
-	background:#acbd;
-	background-image:url(images/purty_wood_@2X.png);
-	display: inline;
-}
-<!-- amtread popup ramadhan -->
-@keyframes slideDown{0%{opacity:0;transform:translateY(-10%)}100%{opacity:1;transform:translateY(0%)}}
-#amtreadramadhan{
-	line-height:1.55;
-	display:block;
-	background:#2d3436;
-	position:fixed;
-	top:25%;
-	right:0;
-	left:0;
-	margin:auto;
-	text-align:center;
-	max-width:600px;
-	box-shadow:0 0 2.5rem -1.5rem rgba(0,0,0,0.5);
-	z-index:99;min-height:325px;
-	padding:20px;
-	border-radius:10px;
-	animation:slideDown 2s;
-	overflow:hidden;
-}
-.amtread-title-ramadhan{
-	font-style:normal;
-	font-size:35px
+html{
+	position: relative;
 }
 
-#amtreadramadhan .puasa21{
-	position:absolute;
-	color:white;
-	font-size:1.5rem;
-	font-weight:400;
-	z-index:99999;
-	text-align:center;
-	margin:auto;
-	padding:10px;
-	left:0;
-	right:0;
-	top:10%;
+body{
+	margin-bottom: 100px;
+	color: #130F49;
+}
+.jumbotron{
+	background-color: #A9DFE2;
+}
+.jumbotron img{
+	width: 200px;
+	height: 200px;
+	border: 3px solid #130F49;
+}
+.jumbotron h1{
+	color: #130F49;
+}
+hr{
+	width: 180px;
+	border: 2px solid #130F49;
+}
+section{
+	min-height: 400px;
+}
+.portfolio{
+	background-color: #A9DFE2;
+}
+ 
+.contact{
+	min-height: 800px;
+}
+.btn{
+	background-color: #130F49;
+}
+span{
+	color: white;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	background-color: #130F49; 
 }
 
-#amtreadramadhan .puasa21 p{
-	margin:10px auto;
-	font-style:italic;
-	font-family:Georgia
-}
-
-#amtreadramadhan .puasa21 .ramadhan2021{
-	font-size:2.5rem;
-	font-style:normal;
-}
-
-.createdby{
-	font: italic normal bold 19px/18px helvetica, arial serif;
-	letter-spacing: 3px;
-	animation-name: animasiText;
-	animation-duration: 1s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-}
-
-.quotes{
-	font-size: 20px;
-	font-style: bold;
-	color: #acbd;
-}
-
-@keyframes animasiText{
-	0%{
-		color: #acbd;
-	}
-	50%{
-		color: #c5c5c5;
-	}
-	100%{
-		color: #ffffff;
-	}
+footer p{
+	color: #aaa;
+	font-size: 15px;
+	padding-top: 30px;
 }
